@@ -46,6 +46,7 @@
     <Reference Include="SAPBusinessOneSDK" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Alternate.b1f.cs">
       <DependentUpon>Alternate.b1f</DependentUpon>
     </Compile>
@@ -69,16 +70,29 @@
     <Compile Include="Form1.b1f.cs">
       <DependentUpon>Form1.b1f</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+=======
+    <Compile Include="Helpers\BomHelper.cs" />
+    <Compile Include="Model\BomLines.cs" />
+    <Compile Include="Services\CompanyService.cs" />
+    <None Include="Form1.b1f">
+      <FormCategory>UserForm</FormCategory>
+    </None>
+    <Compile Include="Form1.b1f.cs">
+      <DependentUpon>Form1.b1f</DependentUpon>
+>>>>>>> 2a6982bf30543cf842f9577408eda331cdfd2d2e
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <None Include="Alternate.b1f">
       <FormCategory>UserForm</FormCategory>
     </None>
   </ItemGroup>
+=======
+>>>>>>> 2a6982bf30543cf842f9577408eda331cdfd2d2e
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

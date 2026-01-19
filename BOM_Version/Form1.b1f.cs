@@ -1,5 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
+=======
+using System.Xml;
+>>>>>>> 2a6982bf30543cf842f9577408eda331cdfd2d2e
 using SAPbouiCOM.Framework;
 using BOM_Version.Helpers;
 
@@ -8,6 +12,7 @@ namespace BOM_Version
     [FormAttribute("BOM_Version.Form1", "Form1.b1f")]
     class Form1 : UserFormBase
     {
+<<<<<<< HEAD
         //private SAPbouiCOM.StaticText lblVersion;
         private SAPbouiCOM.Matrix matrixBOM;
 
@@ -388,3 +393,33 @@ namespace BOM_Version
 
     }
 }
+=======
+        public Form1()
+        {
+        }
+
+        /// <summary>
+        /// Initialize components. Called by framework after form created.
+        /// </summary>
+        public override void OnInitializeComponent()
+        {
+            this.OnCustomInitialize();
+
+        }
+
+        /// <summary>
+        /// Initialize form event. Called by framework before form creation.
+        /// </summary>
+        public override void OnInitializeFormEvents()
+        {
+            
+
+        }
+
+        private void OnCustomInitialize()
+        {
+        }
+        
+    }
+}
+>>>>>>> 2a6982bf30543cf842f9577408eda331cdfd2d2e
